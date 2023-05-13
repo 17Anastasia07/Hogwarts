@@ -1,0 +1,77 @@
+body {
+    background-image: url(./img/HP-Hogwarts-39PHOTOBU17074_PHUP_HP.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 0 40px;
+}
+.nav-link {
+    color: #000;
+    text-shadow: 0 0 10px #74dffd9e;
+}
+.navbar-nav {
+    color: #000;
+    --bs-nav-link-disabled-color: #000;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 17px;
+letter-spacing: 1px;
+font-variant: small-caps;
+}
+.navbar-brand {
+    margin-left: 30px;
+    font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #b3efff;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px #00000081;
+}
+.btn-outline-success {
+    --bs-btn-color: #00c8ff;
+    --bs-btn-border-color: #00c8ff;
+    background-color: rgba(240, 248, 255, 0.075);
+    text-shadow: 0 0 10px #0000009c;
+}
+.btn-outline-success {
+    --bs-btn-hover-bg: #4242ff;
+}
+.img {
+    margin: 0 40px;
+}
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.carousel-control-next-icon {
+    background-image: url(./img/pngwing.com\ \(7\).png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./img/\(8\).png);
+}
+.topic__house {
+    font-family: 'Italianno';
+font-style: italic;
+font-size: 40px;
+margin: 0 auto;
+margin-top: 30px;
+text-align: center;
+color: #000;
+text-shadow: 0 0 10px #ffffff;
+backdrop-filter: blur(10px);
+background-color: #ffffff26;
+border-radius: 15px;
+width: 300px;
+}
