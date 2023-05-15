@@ -50,9 +50,13 @@ color: #b3efff;
 }
 
 .carousel {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
+}
+.carousel-inner {
+    height: 500px;
+    overflow: hidden;
 }
 .carousel-control-next-icon {
     background-image: url(./img/pngwing.com\ \(7\).png);
@@ -74,4 +78,119 @@ backdrop-filter: blur(10px);
 background-color: #ffffff26;
 border-radius: 15px;
 width: 300px;
+}
+
+.info_block {
+    max-width: 1000px;
+    margin: 70px auto; 
+}
+.info__text {
+    background-color: #ffffff26;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: #ffffffc7;
+    padding: 30px 70px;
+    text-shadow: 0 0 10px #000;
+    font-family: 'Jim Nightshade';
+    font-size: 18px;
+}
+.buttons_houses {
+    max-width: 650px;
+    margin: 40px auto;
+
+}
+.Gryffindor {
+    --bs-btn-bg: #ff3737fe;
+    --bs-btn-border-color: #ff0000;
+    text-shadow: 0 0 10px #000;
+    --bs-btn-hover-border-color: #ca100a;
+    --bs-btn-hover-bg: #d70b0b;
+    --bs-btn-active-bg: #ca0a0a;
+    --bs-btn-active-border-color: #be0a0a;
+}
+.Slytherin {
+    --bs-btn-bg: #76ff63fe;
+    --bs-btn-border-color: #00ff08;
+    text-shadow: 0 0 10px #000;
+    --bs-btn-hover-border-color: #2dca0a;
+    --bs-btn-hover-bg: #23d70b;
+    --bs-btn-active-bg: #2dca0a;
+    --bs-btn-active-border-color: #22be0a;
+}
+.Hufflepuff {
+    --bs-btn-bg: #f8fe44fe;
+    --bs-btn-border-color: #fff700;
+    text-shadow: 0 0 10px #000;
+    --bs-btn-hover-border-color: #cac40a;
+    --bs-btn-hover-bg: #cdd70b;
+    --bs-btn-active-bg: #c4ca0a;
+    --bs-btn-active-border-color: #bebe0a;
+}
+.btn-primary {
+    text-shadow: 0 0 10px #000;
+    margin-left: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.card {
+    
+}
+.topic__house_2 {
+    font-family: 'Italianno';
+font-style: italic;
+font-size: 40px;
+margin: 150px auto 50px;
+text-align: center;
+color: #000;
+text-shadow: 0 0 10px #ffffff;
+backdrop-filter: blur(10px);
+background-color: #ffffff26;
+border-radius: 15px;
+max-width: 350px;
+}
+.btn-primary_2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #37afff;
+    --bs-btn-border-color: #0dadfd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    margin: 0 50px;
+    text-shadow: 0 0 10px #000;
+}
+.offcanvas {
+    color: #fff;
+    background-color: #000;
+}
+.btn-close {
+    background-color: #fff;
+}
+.bg-light {
+    --bs-bg-opacity: 0.7;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px #fff;
+}
+
+@media (max-width:767px) {
+    .carousel {
+        display: none;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-top: 30px;
+    }
 }
